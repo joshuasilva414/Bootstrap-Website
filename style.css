@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+.logo {
+  filter: invert(1);
+  width: 50px;
+}
+
+.about {
+    font-family: 'Nunito';
+}
+
+.about-top {
+    background-image: url("images/about_us.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: center;
+}
