@@ -16,6 +16,17 @@
     }
 }
 
+body.about {
+  background-image: url("images/about_us.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about-navbar {
+  margin-left: 50px;
+}
+
 .logo {
   filter: invert(1);
   width: 50px;
@@ -25,11 +36,6 @@
     font-family: 'Nunito';
 }
 
-.about-top {
-    background-image: url("images/about_us.jpg");
-    background-repeat: no-repeat;
-    background-color: black;
-    background-attachment: fixed;
-    background-size: contain;
-    text-align: center;
+.bg-blue {
+  background-color: #0074ff;
 }
